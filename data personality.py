@@ -5,16 +5,16 @@ Username = input('My name is : ')
 print("hello", Username,"welcome to this program")
 #Optionality, yes or no
 Option_pext1 = input('Are you next the qustion?=>')
-print("thanks to next the program")
-#about he/she is born
-print("When were youre born?")
-Input_born = input('im born in Years : ')
-Input_born = float(Input_born)
-old_data = 2023-Input_born
-print("you are",old_data, "old")
-State_born = input('Where are you born?')
-print("okey, thanks for youre participant, i will send this Data to Operator, Thank you")
-
-
-
-
+answer_yes = 'yes'
+if Option_pext1 == 'yes':
+    print("thanks to next the program")
+    #about he/she is born
+    print("When were youre born?")
+    Input_born = input('im born in Years : ')
+    Input_born = float(Input_born)
+    old_data = 2023-Input_born
+    print("you are",old_data, "old")
+    State_born = input('Where are you born?')
+    print("okey, thanks for youre participant, i will send this Data to Operator, Thank you")
+else:
+    print("very bad to say Good by to you:(")
